@@ -250,35 +250,26 @@
 
     .tl-item {
       display: grid;
-      grid-template-columns: 110px 1fr;
+      grid-template-columns: 130px 1fr;
       gap: 0 24px;
       position: relative;
       padding-bottom: 38px;
     }
     .tl-item:last-child { padding-bottom: 0; }
-    .tl-item:not(:last-child)::before {
-      content: '';
-      position: absolute;
-      left: 110px;
-      top: 20px;
-      bottom: 0;
-      width: 1px;
-      background: var(--border);
-      transform: translateX(-50%);
-    }
+    
 
     .tl-date {
       font-family: var(--font-mono);
-      font-size: 11px;
+      font-size: 15px;
       color: var(--muted);
       text-align: right;
-      padding-top: 3px;
+      padding-top: 15px;
       line-height: 1.6;
     }
 
     .tl-dot {
       position: absolute;
-      left: 130px;
+      left: 140px;
       top: 6px;
       width: 8px;
       height: 8px;
@@ -288,7 +279,7 @@
       box-shadow: 0 0 0 3px rgba(255,177,98,.2);
     }
 
-    .tl-body { padding-left: 18px; }
+    .tl-body { padding-left: 25px; }
 
     .tl-role {
       font-size: 14.5px;
